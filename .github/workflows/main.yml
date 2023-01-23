@@ -15,7 +15,6 @@ jobs:
           build: npm run build
           start: npm start
           wait-on: 'http://localhost:3000'
-          record: true
         env:
           NEXT_PUBLIC_DYNAMIC_ENVIRONMENT_ID: fba5127c-21c0-430e-bb03-7dc8f6b11397
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
